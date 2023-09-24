@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Cancer Cell', 'WBC']
+
+roboflow:
+  workspace: national-yang-ming-chiao-tung-university-jvm0d
+  project: cell-type-ss5wm
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/national-yang-ming-chiao-tung-university-jvm0d/cell-type-ss5wm/dataset/3
